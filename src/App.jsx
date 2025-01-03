@@ -1,9 +1,12 @@
 import { useState } from 'react'
+import Parent from './Count'
 
 
 function App() {
   return <div>
    <Light/>
+   <br />
+   <Parent/>
   </div>
 }
 
